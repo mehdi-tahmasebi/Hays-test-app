@@ -1,41 +1,70 @@
-# Hays-test-app
-Test di Programmazione Frontend Developer React
-L'obiettivo del test è creare un'applicazione che utilizzi l'API di PokèAPI per mostrare un
-catalogo di Pokémon con informazioni di base, paginazione e dettagli delle evoluzioni.
-Istruzioni:
-● Utilizza React come libreria per lo sviluppo dell'applicazione.
-● Utilizza Redux per la gestione dello stato dell'applicazione (opzionale ma
-gradito).
-● Utilizza PokeAPI (https://pokeapi.co/) per ottenere i dati dei Pokémon.
-● Implementa una pagina iniziale che mostri una lista paginata di Pokémon.
-● Implementa la funzionalità di paginazione per permettere all'utente di passare tra
-le diverse pagine di Pokémon.
-● Mostra almeno le seguenti informazioni di base per ogni Pokémon:
-○ Nome del Pokémon
-○ Immagine del Pokèmon (sprite)
-● Implementa la funzionalità di click su un singolo Pokémon, che porterà l'utente a
-una nuova pagina con i dettagli del Pokémon e l'elenco delle evoluzioni.
-● Sulla pagina dei dettagli del Pokémon, mostra almeno le seguenti informazioni:
-○ Nome del Pokémon
-○ Immagini del Pokèmon (sprite) front e back
-○ Numero di Pokedex
-○ Tipo/i
-○ Statistiche del Pokèmon e somma delle statistiche
-○ Altezza e peso del Pokèmon
-○ Elenco delle evoluzioni con nome e immagine dell’evoluzione (sprite) che
-al click mandi alla pagina dettaglio dell’evoluzione
+# Getting Started with Create React App
 
-● Assicurati che l'applicazione sia responsive e offra un'esperienza utente
-piacevole su dispositivi mobili e desktop.
-Note:
-● Crea due pagine: una per il catalogo dei Pokémon e una per i dettagli e le
-evoluzioni.
-● Utilizza lo stile di codifica e le best practices che consideri appropriati per un
-progetto React di grandi dimensioni.
-● Puoi utilizzare qualsiasi libreria o strumento aggiuntivo che ritieni utile per
-completare il progetto.
-● Concentrati sulle funzionalità richieste nel test.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-● Non è necessario utilizzare un design complesso o dedicare troppo tempo alla
-parte di stile.
-Se hai bisogno di ulteriori informazioni o chiarimenti, non esitare a chiedere.
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
